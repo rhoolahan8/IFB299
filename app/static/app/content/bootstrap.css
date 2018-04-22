@@ -4934,7 +4934,6 @@ a.list-group-item.active > .badge,
   font-weight: 200;
   line-height: 2.1428571435;
   color: inherit;
-  background: url('https://2v0eg42uysql1jxu8v2rppov-wpengine.netdna-ssl.com/wp-content/uploads/2015/11/abstract-music-rock-bw.jpg') no-repeat center center;
 
 }
 
@@ -4949,6 +4948,8 @@ a.list-group-item.active > .badge,
 
 .container .jumbotron {
   border-radius: 6px;
+  background: url('https://2v0eg42uysql1jxu8v2rppov-wpengine.netdna-ssl.com/wp-content/uploads/2015/11/abstract-music-rock-bw.jpg');
+
 }
 
 @media screen and (min-width: 768px) {
