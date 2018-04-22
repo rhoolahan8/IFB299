@@ -44,3 +44,16 @@ def about(request):
             'year':datetime.now().year,
         }
     )
+
+def teacherapplication(request):
+    """Renders the teacher application page."""
+    assert isinstance(request, HttpRequest)
+    return render(
+        request,
+        'app/teacherapplication.html',
+        {
+            'title':'Teacher Application',
+            'message':'The page for potential teachers to apply.',
+            'year':datetime.now().year,
+        }
+    )
