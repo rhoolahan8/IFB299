@@ -57,3 +57,15 @@ def teacherapplication(request):
             'year':datetime.now().year,
         }
     )
+def signup(request):
+    """Renders the sign up page."""
+    assert isinstance(request, HttpRequest)
+    return render(
+        request,
+        'app/signup.html',
+        {
+            'title':'Student Sign up',
+            'message':'The page for students to sign up.',
+            'year':datetime.now().year,
+        }
+    )

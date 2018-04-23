@@ -2,10 +2,10 @@
 
 {% block content %}
 
-<div class="jumbotron" style="background-image: url(https://2v0eg42uysql1jxu8v2rppov-wpengine.netdna-ssl.com/wp-content/uploads/2015/11/abstract-music-rock-bw.jpg); background-size: cover;">
+<div class="jumbotron" style="background-image: url(https://2v0eg42uysql1jxu8v2rppov-wpengine.netdna-ssl.com/wp-content/uploads/2015/11/abstract-music-rock-bw.jpg); background-position: center bottom; background-blend-mode: overlay; background-size: cover;">
     <h1>Pineland Music School</h1>
     <p class="lead">Founded by Mika Williams, Pineland Music School provides quality lessons in voice, guitar, piano, cello, percussion and more.</p>
-    <p><a href="{% url 'home' %}"class="btn btn-primary btn-large"> Learn more &raquo;</a></p>
+    <p><a href="{% url 'about' %}"class="btn btn-primary btn-large"> Learn more &raquo;</a></p>
 </div>
 
 <div class="row">
@@ -13,7 +13,7 @@
         <h2>Students</h2>
         <p>
             Students are able to book with qualified teachers online for a variety of instruments.
-            Sign in to continue learning or if you're new, sign up and start your musical journey!
+            Log in to continue learning or if you're new, sign up and start your musical journey!
         </p>
         <p><a class="btn btn-default" href="{% url 'login' %}">Click here &raquo;</a></p>
     </div>

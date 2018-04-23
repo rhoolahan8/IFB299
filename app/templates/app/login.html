@@ -8,7 +8,7 @@
         <section id="loginForm">
             <form action="." method="post" class="form-horizontal">
                 {% csrf_token %}
-                <h4>Use a local account to log in.</h4>
+                <h4>Use an existing account to log in.</h4>
                 <hr />
                 <div class="form-group">
                     <label for="id_username" class="col-md-2 control-label">User name</label>
@@ -32,6 +32,7 @@
                 <p class="validation-summary-errors">Please enter a correct user name and password.</p>
                 {% endif %}
             </form>
+            <p><a href="{%url 'signup'%}"> Click here if you're a new student.</a></p>
         </section>
     </div>
     <div class="col-md-4">
